@@ -1,0 +1,29 @@
+# GEMINI
+
+## Research Paper Summrization Guideline
+
+- The summary **must be written in Korean** and **must follow Markdown syntax** using a clear hierarchical structure with headings, bullet points, and formatting where appropriate.
+- Ensure the content is **concise, accurate, and easy to understand** for a technical but general audience.
+- Please follow these formatting rules:
+  - At the very top, display:
+    - The **paper title** on the first line as a "#" heading.
+    - The **author list** on the second line as plain text (comma-separated), below the title.
+  - Then use the following summary structure:
+    - 🧩 Problem to Solve
+      - Clearly describe the main research problem or question the paper aims to address.
+    - ✨ Key Contributions
+      - List the core findings and novel contributions as bullet points.
+    - 📎 Related Works
+      - Mention key prior works referenced in the paper.
+    - 🛠️ Methodology
+      - Describe the approach or algorithm used, preferably with steps or bullet points.
+    - 📊 Results
+      - Summarize quantitative or qualitative results briefly.
+    - 🧠 Insights & Discussion
+      - Explain the implications, any limitations, or significance of the results.
+    - 📌 TL;DR
+      - Provide a TL;DR summary of this paper, highlighting the main problem, proposed method, and key findings.
+  - Guidelines for writing in Markdown format:
+    1. Use braces around multi-character subscripts or superscripts in MathJax to avoid rendering errors.
+    2. Use $...$ for inline math and $$...$$ for block math to ensure compatibility with MathJax.
+    3. Do not use backticks (`) for math; use dollar signs ($) to allow proper MathJax rendering.
