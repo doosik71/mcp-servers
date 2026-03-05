@@ -1,8 +1,9 @@
-import arxiv
-from mcp.server.fastmcp import FastMCP
+import arxiv  # type: ignore
+from mcp.server.fastmcp import FastMCP  # type: ignore
 from typing import List, Dict, Any
 
-mcp = FastMCP("ArxivSearch", json_response=True)
+
+mcp = FastMCP("search_arxiv", json_response=True)
 
 
 @mcp.tool()

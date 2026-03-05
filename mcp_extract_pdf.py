@@ -1,17 +1,17 @@
 import asyncio
 import io
 import httpx
-from PyPDF2 import PdfReader
-from mcp.server.fastmcp import FastMCP
+from PyPDF2 import PdfReader  # type: ignore
+from mcp.server.fastmcp import FastMCP  # type: ignore
 
 
 # Initialize the FastMCP server
 mcp = FastMCP(
-    name="PDFTextExtractor", json_response=True)
+    name="extract_pdf", json_response=True)
 
 
 @mcp.tool()
-async def extract_text_from_pdf_url(pdf_url: str) -> str:
+async def extract_pdf(pdf_url: str) -> str:
     """
     Extracts all text content from a PDF document located at the given URL.
 
