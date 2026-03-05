@@ -5,7 +5,7 @@
 ```json
 {
   "mcpServers": {
-    "WebSearch": {
+    "search_web": {
       "command": "D:\\dev\\python\\mcp-servers\\.venv\\Scripts\\python.exe",
       "args": ["D:\\dev\\python\\mcp-servers\\mcp_search_web.py"]
     }
